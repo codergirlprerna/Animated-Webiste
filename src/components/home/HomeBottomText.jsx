@@ -1,24 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomeBottomText = () => {
   return (
-    <div className="font-[font2] flex items-center justify-center gap-2">
-      <Link
-        to="/projects"
-        className="text-[6.5vw] leading-[5.5vw] border-4 border-white rounded-full px-10 pt-3 uppercase"
-      >
-        Projects
-      </Link>
-
-      <Link
-        to="/agence"
-        className="text-[6.5vw] leading-[5.5vw] border-4 border-white rounded-full px-10 pt-3 uppercase"
-      >
-        Agence
-      </Link>
+    <div className='font-[font2] flex item-center justify-center gap-2'> 
+      <div className='border-3 hover:border-[#D3FD50] hover:text-[#D3FD50] h-44 flex items-center px-10 border-white rounded-full uppercase '>
+        <Link className='text-[6vw] mt-6' to='/projects'>Projects</Link>
+      </div>
+      <div className='border-3 hover:border-[#D3FD50] hover:text-[#D3FD50] h-44 flex items-center px-10 border-white rounded-full uppercase '>
+        <Link className='text-[6vw] mb-6' to='/agence'>Agence</Link>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default HomeBottomText;
+export default HomeBottomText
