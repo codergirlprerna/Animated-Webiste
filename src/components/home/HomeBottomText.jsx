@@ -8,7 +8,7 @@ const HomeBottomText = () => {
         <Link className='text-[6vw] mt-6' to='/projects'>Projects</Link>
       </div>
       <div className='border-3 hover:border-[#D3FD50] hover:text-[#D3FD50] h-44 flex items-center px-10 border-white rounded-full uppercase '>
-        <Link className='text-[6vw] mb-6' to='/agence'>Agence</Link>
+        <Link className='text-[6vw] mt-6' to='/agence'>Agence</Link>
       </div>
     </div>
   )
