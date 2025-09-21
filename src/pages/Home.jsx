@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import HomeHeroText from '../components/home/HomeHeroText'
+import HomeHeroText from '../components/home/HomeHerotext'
 import HomeBottomText from '../components/home/HomeBottomText'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
